@@ -1,0 +1,24 @@
+<!-- Features Section -->
+<section class="features" id="features">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2>{{ lang.nav.features }}</h2>
+            </div>
+        </div>
+        <hr class="star-primary">
+        {% for item in lang.features %}
+            {% if forloop.first or forloop.index == 4 %}
+            <div class="row">            
+            {% endif %}    
+                <div class="col-sm-4 feature">
+                    <i class="{{ item.icon }} fa-4x feature-icon"></i>
+                    <h4 class="feature-header">{{ item.title }}</h4>
+                    <p class="feature-description">{{ item.description }}</p>
+                </div>
+            {% if forloop.index == 3 or forloop.index == 6 %}
+            </div>           
+            {% endif %}           
+        {% endfor %}
+    </div>
+</section>

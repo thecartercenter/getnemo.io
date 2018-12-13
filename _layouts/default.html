@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    {% include head.html %}
+    <body id="page-top" class="index {% if page.direction == 'rtl' %} rtl {% endif %}">
+    <!-- set language variable -->    
+    {% case page.lang %}
+      {% when 'en' %}
+        {% assign lang = site.data.en %}
+      {% when 'ar' %}
+        {% assign lang = site.data.ar %}
+      {% when 'fr' %}
+        {% assign lang = site.data.fr %}
+    {% endcase %}
+
+    {% include nav.html %}
+    {% include header.html %}
+    {% include features.html %}
+    {% include about.html %}
+    {% include demo.html %}
+    {% include footer.html %}
+    {% include js.html %}
+    </body>
+</html>

@@ -1,0 +1,31 @@
+english: English
+french: Français
+arabic: العربية
+nav:
+  features: المميزات
+  about: حول
+  documentation: الوثائق
+  github: github
+header:
+  intro: نظام قوي لجمع وتحليل البيانات
+about:
+  intro: "NEMO عبارة عن أداة لجمع وتحليل البيانات مفتوحة المصدر تم تطويرها من قبل <a href=\"https://www.cartercenter.org/\">مركز كارتر</a>. يمكن للمراقبين إرسال الإستمارات في الوقت الفعلي عبر Android أو SMS أو متصفح ويب. يمكن تحليل البيانات المجمعة داخل NEMO أو تصديرها لمزيد من التحليل. يتم استخدام NEMO في جميع أنحاء العالم من خلال مهام مركز كارتر لجمع البيانات وتحليلها. الترخيص مفتوح المصدر لـ NEMO / ELMO هو Apache 2.0. يمكن استضافة على خوادم خاصة ويمكن للمستخدمين التحكم في الوصول إلى البيانات."
+features:
+  - title: تصميم استمارات معقدة
+    icon: fas fa-cogs
+    description: من بسيطة إلى متطورة ، إنشاء استمارات بسهولة في التطبيق
+  - title: جمع البيانات في الميدان
+    icon: fas fa-tablet-alt
+    description: جمع البيانات عن طريق ODK أو SMS. بدون اتصال بالانترنت
+  - title: متعدد اللغات
+    icon: fas fa-globe-africa
+    description: استخدم العديد من اللغات واللهجات
+  - title: المصدر مفتوح 100٪
+    icon: fab fa-github
+    description: "ساعدنا عن طريق <a href=\"http://github.com/thecartercenter/elmo\">استنساخ</a> المشروع لأخذه في اتجاه جديد"
+  - title: إدارة المستخدمين وإرسال الرسائل القصيرة
+    icon: fas fa-users
+    description: إنشاء مهمات وسهولة التواصل مع الموظفين في الميدان
+  - title: تقارير وتحليلات مخصصة
+    icon: fas fa-chart-line
+    description: التقارير في الوقت الفعلي ، و إمكانية إنشاء تقارير وتحليلات مخصصة

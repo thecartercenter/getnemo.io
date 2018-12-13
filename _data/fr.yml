@@ -1,0 +1,31 @@
+english: English
+french: Français
+arabic: العربية
+nav:
+  features: fonctionnalités
+  about: à propos
+  documentation: documentation
+  github: github
+header:
+  intro: Un système robuste de collecte et d'analyse de données
+about:
+  intro: "NEMO est un outil open-source de collecte et d'analyse de données développé par le <a href=\"https://www.cartercenter.org/\">Centre Carter</a>. Les enumérateurs peuvent soumettre des formulaires en temps réel via Android, SMS, ou un navigateur web. Les données receuillies peuvent être analysées au sein de NEMO ou bien exportées pour des analyses plus approfondies. NEMO est utilisé dans le monde entier par les missions du Centre Carter pour la collecte et l'analyse de données. La license open source de NEMO/ELMO est Apache 2.0. Il peut être hébergé sur des serveurs privés et les utilisateurs peuvent controler l'accès aux données."
+features:
+  - title: Conception de formulaire complexe
+    icon: fas fa-cogs
+    description: Créer en toute simplicité des formulaires sophistiquées
+  - title: Collecter des données sur terrain
+    icon: fas fa-tablet-alt
+    description: Collecter des données avec ODK et par SMS. Aucune connexion requise
+  - title: Support de plusieurs langues
+    icon: fas fa-globe-africa
+    description: Utiliser plusieurs langues et dialectes
+  - title: 100% OPEN SOURCE
+    icon: fab fa-github
+    description: "Aidez nous en <a href=\"http://github.com/thecartercenter/elmo\">clonant le projet</a>  afin de l'ameliorer"
+  - title: Gerer les utilisateurs et envoyer des SMS
+    icon: fas fa-users
+    description: Créer des missions et communiquer facilement avec l'équipe sur terrain
+  - title: Rapport et Analyse personnalisé
+    icon: fas fa-chart-line
+    description: Rapport en temps réel et analyse standardisé facilement personnalisable

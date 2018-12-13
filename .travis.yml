@@ -1,0 +1,12 @@
+language: ruby
+rvm:
+  - 2.4.1
+
+install: gem install jekyll
+script: jekyll build
+
+sudo: false
+exclude: [vendor]
+
+notifications:
+  email: false
