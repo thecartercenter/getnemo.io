@@ -1,1 +1,1 @@
-ELMO NEMO website developed with Jekyll.
+NEMO website developed with Jekyll.
