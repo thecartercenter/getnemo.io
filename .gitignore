@@ -2,3 +2,6 @@
 .jekyll-metadata
 Gemfile.lock
 _site
+
+# IDEs
+.idea/

@@ -1,8 +1,8 @@
 # Site settings
-title: Elmo Nemo
-email: info@getelmo.org
-url: https://github.com/thecartercenter/elmo
-description: "ELMO NEMO data collection and analysis system"
+title: NEMO
+email: info@getnemo.org
+url: https://github.com/thecartercenter/nemo
+description: "NEMO data collection and analysis system"
 keywords: "ODK, SMS, Data collection, election, observation"
 meta_author: The Carter Center
 
